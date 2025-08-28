@@ -13,6 +13,7 @@ body {
     justify-content: space-around;
     align-items: center;
 }
+
 input {
     width:584px;
     height:35px;
@@ -46,6 +47,7 @@ button {
 .logo {
     height: 64px;
     width: 224px;
+    color:#683315;
 }
 
 nav {
@@ -163,6 +165,9 @@ a:hover {
 .socialmedia {
     display: flex;
     gap: 15px;
+    height: 25px;
+    width: 150px;
+    color:#683315;
 }
 
 .rosaogbjork {
@@ -179,6 +184,7 @@ a:hover {
     width: 200px;
     display: flex;
 }
+how to color svg
 
 h1 {
     color:#683315;
