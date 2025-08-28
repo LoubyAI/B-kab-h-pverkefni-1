@@ -1,5 +1,5 @@
 .container-first {
-  background-image: url(https://github.com/LoubyAI/B-kab-h-pverkefni-1/blob/main/images/herobackround.png?raw=true); /* Sets background image */
+  background-image: url(./images/herobackround.png); /* Sets background image */
   background-position: center;
   background-size: cover; /* Scales image to fill container */
   background-repeat: no-repeat; /* Prevents image from repeating */
