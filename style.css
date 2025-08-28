@@ -25,14 +25,14 @@ input {
 button {
     width: 151px;
     height: 56px;
-  display: inline-block; /* Allows padding and margin */
-  font-size: 20px;
-  background-color: #e5d5bc;
-  color: #683315;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 9999px;/* Fully rounded button shape */
-  text-align: center;
+    display: inline-block; /* Allows padding and margin */
+    font-size: 20px;
+    background-color: #e5d5bc;
+    color: #683315;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 9999px;
+    text-align: center;
 }
 .karfa {
       fill: #683315;

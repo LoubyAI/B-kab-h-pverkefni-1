@@ -1,9 +1,10 @@
 .container-first {
-  background-image: url(/images/Frame\ 61.png); /* Sets background image */
+  background-image: url(/images/herobackround.png); /* Sets background image */
   background-position: center;
   background-size: cover; /* Scales image to fill container */
   background-repeat: no-repeat; /* Prevents image from repeating */
 }
+
 .hero {
  /* Positions the container absolutely (may cause layout issues) */
   display: flex;
