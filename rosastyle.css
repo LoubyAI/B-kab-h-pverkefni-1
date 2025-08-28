@@ -1,50 +1,51 @@
 .container-first {
-  background-image: url(./images/herobackround.png); /* Sets background image */
-  background-position: center;
-  background-size: cover; /* Scales image to fill container */
-  background-repeat: no-repeat; /* Prevents image from repeating */
+    background-image: url(./images/herobackround.png); 
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat; 
 }
 
 .hero {
- /* Positions the container absolutely (may cause layout issues) */
-  display: flex;
-  gap: 143px; /* Adds spacing between flex items */
-  justify-content: center;
-  margin: 0;
+    display: flex;
+    gap: 143px; 
+    justify-content: center;
+    margin: 0;
 }
 
 .book-main {
-  width: 302; /* Fixed width for the image */
-  height: 461px;
-  box-shadow: 0px 0px 20px rgb(37, 34, 34);  /* Adds soft shadow around image */
-  margin: 64px 0 64px 138px;
-  
-
+    width: 302; 
+    height: 461px;
+    box-shadow: 0px 0px 20px rgb(37, 34, 34);  
+    margin: 64px 0 64px 138px;
 }
+
 .book-info {
-      min-width: 630px;/* Limits width of text block */   /* Removes default margin */
-
+    min-width: 630px;
 }
+
 .book-info h1 {
-  font-size: 90px;
-  font-style: normal;
-  font-weight: bold;
-  margin: 64px 0 20px 0; /* Adds top margin only */
+    font-size: 90px;
+    font-style: normal;
+    font-weight: bold;
+    margin: 64px 0 20px 0;
 }
+
 .book-info p {
-  font-size: 20px;
-  margin: 0px 100px 0 0; 
+    font-size: 20px;
+    margin: 0px 100px 0 0; 
 
 }
+
 .cta-button {
-  display: inline-block; /* Allows padding and margin */
-  margin-top: 40px;
-  padding: 23px 40px; /* Inner spacing for button */
-  font-size: 20px;
-  background-color: #e5d5bc;
-  color: #683315;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 9999px;/* Fully rounded button shape */
+    display: inline-block; 
+    margin-top: 40px;
+    padding: 13px 10px; 
+    font-size: 16px;
+    background-color: #e5d5bc;
+    color: #683315;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 9999px;
+    border: 1px solid #683315;
 }
 

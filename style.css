@@ -7,7 +7,7 @@ body {
 }
 
 .logodiv {
-    height:100px;
+    height:70px;
     width: 100%;
     display: flex;  
     justify-content: space-around;
@@ -15,7 +15,7 @@ body {
 }
 input {
     width:584px;
-    height:56px;
+    height:35px;
     border-radius: 9999px;
     border: 1px solid #683315;
     background: url(/images/searchicon.svg) no-repeat 20px ;
@@ -23,34 +23,37 @@ input {
 }
 
 button {
-    width: 151px;
-    height: 56px;
+    width: 80px;
+    height: 35px;
     display: inline-block; /* Allows padding and margin */
-    font-size: 20px;
+    font-size: 16px;
     background-color: #e5d5bc;
     color: #683315;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: light;
     border-radius: 9999px;
     text-align: center;
+    border: 1px solid #683315;
+   
 }
 .karfa {
       fill: #683315;
+      width: 15px;
+      height: 13px;
+      padding-right: 2px;
 }
 
 .logo {
     height: 64px;
-        width: 224px;
-
+    width: 224px;
 }
-
 
 nav {
     display: flex;
     align-items: center;
     background-color: #683315;
     width: 100%;
-    height: 70px;
+    height: 40px;
 }
 
 ul {
@@ -69,12 +72,11 @@ li {
 }
 
 ul :nth-child(1){ 
-     border-left: none; 
-     
+     border-left: none;   
 }
 
 li :hover{ 
-    transition: 0,5; color: #e5d5bc;
+    transition: 0,5; color: #fcfbf9;
 }
 
 .l { 
@@ -83,7 +85,7 @@ li :hover{
     width: 100%; 
     display: block;
     color:#e5d5bc;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 main {
@@ -181,12 +183,15 @@ a:hover {
 h1 {
     color:#683315;
 }
+
 h2 {
     color:#683315;
 }
+
 h3 {
     color:#683315;
 }
+
 .litarosa {
     color:#683315;
 }
