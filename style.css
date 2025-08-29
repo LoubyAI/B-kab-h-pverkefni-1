@@ -23,27 +23,27 @@ input {
     padding-left: 60px;
 }
 
-button {
+         /* Hér að neðan kemur körfu */
+button{
     width: 80px;
-    height: 35px;
-    display: inline-block; /* Allows padding and margin */
+    height: 30px;
+    display:inline-block;
     font-size: 16px;
     background-color: #e5d5bc;
-    color: #683315;
-    text-decoration: none;
     font-weight: light;
     border-radius: 9999px;
     text-align: center;
     border: 1px solid #683315;
-   
 }
-.karfa {
-      fill: #683315;
-      width: 15px;
-      height: 13px;
-      padding-right: 2px;
+.karfa{
+    fill: #683315;
+    width: 15px;
+    height: 13px;
 }
-
+a:hover { 
+    transition: 0,5; color:#F5E3D8;
+}
+         /* Hér að ofan kemur körfu */
 .logo {
     height: 64px;
     width: 224px;
@@ -156,10 +156,6 @@ a {
     text-decoration: none; 
     list-style: none; 
     color: #683315;
-}
-
-a:hover { 
-    transition: 0,5; color:#F5E3D8;
 }
 
 .socialmedia {
