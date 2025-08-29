@@ -19,7 +19,7 @@ input {
     height:35px;
     border-radius: 9999px;
     border: 1px solid #683315;
-    background: url(/images/searchicon.svg) no-repeat 20px ;
+    background: url(./images/searchicon.svg) no-repeat 20px ;
     padding-left: 60px;
 }
 
